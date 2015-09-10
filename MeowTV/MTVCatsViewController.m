@@ -32,6 +32,7 @@
     } failure:^(NSError *error) {
         dispatch_async(dispatch_get_main_queue(), ^{
             UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"It seems we were unable to find your cats." message:@"好像找不到貓咪耶" preferredStyle:UIAlertControllerStyleAlert];
+            [alertController addAction:[UIAlertAction actionWithTitle:@"OK. Meow." style:UIAlertActionStyleCancel handler:nil]];
             [self presentViewController:alertController animated:YES completion:nil];
         });
     }];
