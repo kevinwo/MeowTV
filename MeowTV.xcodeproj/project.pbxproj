@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54F092D1BA166AB009FB0F1 /* MTVCatCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A54F092C1BA166AB009FB0F1 /* MTVCatCollectionViewCell.m */; };
+		A5641A311BA14FDD00C57EED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5641A301BA14FDD00C57EED /* main.m */; };
+		A5641A341BA14FDD00C57EED /* MTVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5641A331BA14FDD00C57EED /* MTVAppDelegate.m */; };
+		A5641A371BA14FDD00C57EED /* MTVCatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5641A361BA14FDD00C57EED /* MTVCatsViewController.m */; };
+		A5641A3A1BA14FDD00C57EED /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5641A391BA14FDD00C57EED /* SecondViewController.m */; };
+		A5641A3D1BA14FDD00C57EED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5641A3B1BA14FDD00C57EED /* Main.storyboard */; };
+		A5641A3F1BA14FDD00C57EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5641A3E1BA14FDD00C57EED /* Assets.xcassets */; };
+		A5641A4D1BA1517C00C57EED /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5641A4C1BA1517C00C57EED /* TVServices.framework */; };
+		A5641A511BA1517C00C57EED /* ServiceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A5641A501BA1517C00C57EED /* ServiceProvider.m */; };
+		A5641A551BA1517C00C57EED /* MeowTV Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A5641A4A1BA1517C00C57EED /* MeowTV Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A5641A641BA159AD00C57EED /* OMGFormURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = A5641A5F1BA159AD00C57EED /* OMGFormURLEncode.m */; };
+		A5641A651BA159AD00C57EED /* OMGHTTPURLRQ.m in Sources */ = {isa = PBXBuildFile; fileRef = A5641A611BA159AD00C57EED /* OMGHTTPURLRQ.m */; };
+		A5641A661BA159AD00C57EED /* OMGUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = A5641A631BA159AD00C57EED /* OMGUserAgent.m */; };
+		A5641A6A1BA159F000C57EED /* MTVWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = A5641A691BA159F000C57EED /* MTVWebService.m */; };
+		A5641A6D1BA15B1700C57EED /* MTVNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A5641A6C1BA15B1700C57EED /* MTVNetworking.m */; };
+		A5641A711BA15C7800C57EED /* MTVCat.m in Sources */ = {isa = PBXBuildFile; fileRef = A5641A701BA15C7800C57EED /* MTVCat.m */; };
+		A5641AC11BA1635800C57EED /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A5641AC01BA1635800C57EED /* XMLDictionary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5641A531BA1517C00C57EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5641A241BA14FDD00C57EED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5641A491BA1517C00C57EED;
+			remoteInfo = "MeowTV Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5641A591BA1517C00C57EED /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A5641A551BA1517C00C57EED /* MeowTV Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A54F092B1BA166AB009FB0F1 /* MTVCatCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTVCatCollectionViewCell.h; sourceTree = "<group>"; };
+		A54F092C1BA166AB009FB0F1 /* MTVCatCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTVCatCollectionViewCell.m; sourceTree = "<group>"; };
+		A5641A2C1BA14FDD00C57EED /* MeowTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeowTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5641A301BA14FDD00C57EED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5641A321BA14FDD00C57EED /* MTVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTVAppDelegate.h; sourceTree = "<group>"; };
+		A5641A331BA14FDD00C57EED /* MTVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTVAppDelegate.m; sourceTree = "<group>"; };
+		A5641A351BA14FDD00C57EED /* MTVCatsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTVCatsViewController.h; sourceTree = "<group>"; };
+		A5641A361BA14FDD00C57EED /* MTVCatsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTVCatsViewController.m; sourceTree = "<group>"; };
+		A5641A381BA14FDD00C57EED /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A5641A391BA14FDD00C57EED /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A5641A3C1BA14FDD00C57EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5641A3E1BA14FDD00C57EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5641A401BA14FDD00C57EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5641A4A1BA1517C00C57EED /* MeowTV Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MeowTV Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5641A4C1BA1517C00C57EED /* TVServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVServices.framework; path = System/Library/Frameworks/TVServices.framework; sourceTree = SDKROOT; };
+		A5641A4F1BA1517C00C57EED /* ServiceProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceProvider.h; sourceTree = "<group>"; };
+		A5641A501BA1517C00C57EED /* ServiceProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceProvider.m; sourceTree = "<group>"; };
+		A5641A521BA1517C00C57EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5641A5E1BA159AD00C57EED /* OMGFormURLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGFormURLEncode.h; sourceTree = "<group>"; };
+		A5641A5F1BA159AD00C57EED /* OMGFormURLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGFormURLEncode.m; sourceTree = "<group>"; };
+		A5641A601BA159AD00C57EED /* OMGHTTPURLRQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGHTTPURLRQ.h; sourceTree = "<group>"; };
+		A5641A611BA159AD00C57EED /* OMGHTTPURLRQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGHTTPURLRQ.m; sourceTree = "<group>"; };
+		A5641A621BA159AD00C57EED /* OMGUserAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGUserAgent.h; sourceTree = "<group>"; };
+		A5641A631BA159AD00C57EED /* OMGUserAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGUserAgent.m; sourceTree = "<group>"; };
+		A5641A681BA159F000C57EED /* MTVWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTVWebService.h; sourceTree = "<group>"; };
+		A5641A691BA159F000C57EED /* MTVWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTVWebService.m; sourceTree = "<group>"; };
+		A5641A6B1BA15B1700C57EED /* MTVNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTVNetworking.h; sourceTree = "<group>"; };
+		A5641A6C1BA15B1700C57EED /* MTVNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTVNetworking.m; sourceTree = "<group>"; };
+		A5641A6F1BA15C7800C57EED /* MTVCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTVCat.h; sourceTree = "<group>"; };
+		A5641A701BA15C7800C57EED /* MTVCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTVCat.m; sourceTree = "<group>"; };
+		A5641ABF1BA1635800C57EED /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		A5641AC01BA1635800C57EED /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5641A291BA14FDD00C57EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5641A471BA1517C00C57EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5641A4D1BA1517C00C57EED /* TVServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A54F092A1BA16687009FB0F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A54F092B1BA166AB009FB0F1 /* MTVCatCollectionViewCell.h */,
+				A54F092C1BA166AB009FB0F1 /* MTVCatCollectionViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5641A231BA14FDD00C57EED = {
+			isa = PBXGroup;
+			children = (
+				A5641A2E1BA14FDD00C57EED /* MeowTV */,
+				A5641A4E1BA1517C00C57EED /* MeowTV Extension */,
+				A5641A4B1BA1517C00C57EED /* Frameworks */,
+				A5641A2D1BA14FDD00C57EED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5641A2D1BA14FDD00C57EED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5641A2C1BA14FDD00C57EED /* MeowTV.app */,
+				A5641A4A1BA1517C00C57EED /* MeowTV Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5641A2E1BA14FDD00C57EED /* MeowTV */ = {
+			isa = PBXGroup;
+			children = (
+				A54F092A1BA16687009FB0F1 /* Views */,
+				A5641A6E1BA15C6200C57EED /* Models */,
+				A5641A671BA159C700C57EED /* Interfaces */,
+				A5641A5C1BA159AD00C57EED /* Additions */,
+				A5641A321BA14FDD00C57EED /* MTVAppDelegate.h */,
+				A5641A331BA14FDD00C57EED /* MTVAppDelegate.m */,
+				A5641A351BA14FDD00C57EED /* MTVCatsViewController.h */,
+				A5641A361BA14FDD00C57EED /* MTVCatsViewController.m */,
+				A5641A381BA14FDD00C57EED /* SecondViewController.h */,
+				A5641A391BA14FDD00C57EED /* SecondViewController.m */,
+				A5641A3B1BA14FDD00C57EED /* Main.storyboard */,
+				A5641A3E1BA14FDD00C57EED /* Assets.xcassets */,
+				A5641A401BA14FDD00C57EED /* Info.plist */,
+				A5641A2F1BA14FDD00C57EED /* Supporting Files */,
+			);
+			path = MeowTV;
+			sourceTree = "<group>";
+		};
+		A5641A2F1BA14FDD00C57EED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5641A301BA14FDD00C57EED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5641A4B1BA1517C00C57EED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5641A4C1BA1517C00C57EED /* TVServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5641A4E1BA1517C00C57EED /* MeowTV Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A5641A4F1BA1517C00C57EED /* ServiceProvider.h */,
+				A5641A501BA1517C00C57EED /* ServiceProvider.m */,
+				A5641A521BA1517C00C57EED /* Info.plist */,
+			);
+			path = "MeowTV Extension";
+			sourceTree = "<group>";
+		};
+		A5641A5C1BA159AD00C57EED /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				A5641A5D1BA159AD00C57EED /* OMGHTTPURLRQ */,
+				A5641ABE1BA1635800C57EED /* XMLDictionary */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		A5641A5D1BA159AD00C57EED /* OMGHTTPURLRQ */ = {
+			isa = PBXGroup;
+			children = (
+				A5641A5E1BA159AD00C57EED /* OMGFormURLEncode.h */,
+				A5641A5F1BA159AD00C57EED /* OMGFormURLEncode.m */,
+				A5641A601BA159AD00C57EED /* OMGHTTPURLRQ.h */,
+				A5641A611BA159AD00C57EED /* OMGHTTPURLRQ.m */,
+				A5641A621BA159AD00C57EED /* OMGUserAgent.h */,
+				A5641A631BA159AD00C57EED /* OMGUserAgent.m */,
+			);
+			path = OMGHTTPURLRQ;
+			sourceTree = "<group>";
+		};
+		A5641A671BA159C700C57EED /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				A5641A681BA159F000C57EED /* MTVWebService.h */,
+				A5641A691BA159F000C57EED /* MTVWebService.m */,
+				A5641A6B1BA15B1700C57EED /* MTVNetworking.h */,
+				A5641A6C1BA15B1700C57EED /* MTVNetworking.m */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		A5641A6E1BA15C6200C57EED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5641A6F1BA15C7800C57EED /* MTVCat.h */,
+				A5641A701BA15C7800C57EED /* MTVCat.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5641ABE1BA1635800C57EED /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				A5641ABF1BA1635800C57EED /* XMLDictionary.h */,
+				A5641AC01BA1635800C57EED /* XMLDictionary.m */,
+			);
+			path = XMLDictionary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5641A2B1BA14FDD00C57EED /* MeowTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5641A431BA14FDD00C57EED /* Build configuration list for PBXNativeTarget "MeowTV" */;
+			buildPhases = (
+				A5641A281BA14FDD00C57EED /* Sources */,
+				A5641A291BA14FDD00C57EED /* Frameworks */,
+				A5641A2A1BA14FDD00C57EED /* Resources */,
+				A5641A591BA1517C00C57EED /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5641A541BA1517C00C57EED /* PBXTargetDependency */,
+			);
+			name = MeowTV;
+			productName = MeowTV;
+			productReference = A5641A2C1BA14FDD00C57EED /* MeowTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5641A491BA1517C00C57EED /* MeowTV Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5641A561BA1517C00C57EED /* Build configuration list for PBXNativeTarget "MeowTV Extension" */;
+			buildPhases = (
+				A5641A461BA1517C00C57EED /* Sources */,
+				A5641A471BA1517C00C57EED /* Frameworks */,
+				A5641A481BA1517C00C57EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MeowTV Extension";
+			productName = "MeowTV Extension";
+			productReference = A5641A4A1BA1517C00C57EED /* MeowTV Extension.appex */;
+			productType = "com.apple.product-type.tv-app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5641A241BA14FDD00C57EED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MTV;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kevin Wolkober";
+				TargetAttributes = {
+					A5641A2B1BA14FDD00C57EED = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = RBAYG54ZP6;
+					};
+					A5641A491BA1517C00C57EED = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = RBAYG54ZP6;
+					};
+				};
+			};
+			buildConfigurationList = A5641A271BA14FDD00C57EED /* Build configuration list for PBXProject "MeowTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5641A231BA14FDD00C57EED;
+			productRefGroup = A5641A2D1BA14FDD00C57EED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5641A2B1BA14FDD00C57EED /* MeowTV */,
+				A5641A491BA1517C00C57EED /* MeowTV Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5641A2A1BA14FDD00C57EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5641A3F1BA14FDD00C57EED /* Assets.xcassets in Resources */,
+				A5641A3D1BA14FDD00C57EED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5641A481BA1517C00C57EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5641A281BA14FDD00C57EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5641A6A1BA159F000C57EED /* MTVWebService.m in Sources */,
+				A5641A661BA159AD00C57EED /* OMGUserAgent.m in Sources */,
+				A5641A641BA159AD00C57EED /* OMGFormURLEncode.m in Sources */,
+				A5641A3A1BA14FDD00C57EED /* SecondViewController.m in Sources */,
+				A5641A651BA159AD00C57EED /* OMGHTTPURLRQ.m in Sources */,
+				A5641A341BA14FDD00C57EED /* MTVAppDelegate.m in Sources */,
+				A5641A711BA15C7800C57EED /* MTVCat.m in Sources */,
+				A54F092D1BA166AB009FB0F1 /* MTVCatCollectionViewCell.m in Sources */,
+				A5641AC11BA1635800C57EED /* XMLDictionary.m in Sources */,
+				A5641A371BA14FDD00C57EED /* MTVCatsViewController.m in Sources */,
+				A5641A6D1BA15B1700C57EED /* MTVNetworking.m in Sources */,
+				A5641A311BA14FDD00C57EED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5641A461BA1517C00C57EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5641A511BA1517C00C57EED /* ServiceProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5641A541BA1517C00C57EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5641A491BA1517C00C57EED /* MeowTV Extension */;
+			targetProxy = A5641A531BA1517C00C57EED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5641A3B1BA14FDD00C57EED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5641A3C1BA14FDD00C57EED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5641A411BA14FDD00C57EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A5641A421BA14FDD00C57EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5641A441BA14FDD00C57EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MeowTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinwolkober.MeowTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5641A451BA14FDD00C57EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MeowTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinwolkober.MeowTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5641A571BA1517C00C57EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "MeowTV Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinwolkober.MeowTV.MeowTV-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A5641A581BA1517C00C57EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "MeowTV Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinwolkober.MeowTV.MeowTV-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5641A271BA14FDD00C57EED /* Build configuration list for PBXProject "MeowTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5641A411BA14FDD00C57EED /* Debug */,
+				A5641A421BA14FDD00C57EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5641A431BA14FDD00C57EED /* Build configuration list for PBXNativeTarget "MeowTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5641A441BA14FDD00C57EED /* Debug */,
+				A5641A451BA14FDD00C57EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5641A561BA1517C00C57EED /* Build configuration list for PBXNativeTarget "MeowTV Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5641A571BA1517C00C57EED /* Debug */,
+				A5641A581BA1517C00C57EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5641A241BA14FDD00C57EED /* Project object */;
+}
