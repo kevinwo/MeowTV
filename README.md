@@ -15,7 +15,7 @@ Things I learned
 
 https://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/#app-icon
 
-2) **There is the concept of a top shelf area**, a large banner area above app icons that displays content specific to your app when it is highlighted. This content can either be a single large static image (1920 pt x 720 pts
+2) **There is the concept of a top shelf area**, a large banner area above app icons that displays content specific to your app when it is highlighted. This content can either be dynamically loaded content, or a single large static image (1920 pt x 720 pts. Dynamic content can be displayed in one of two styles - inline or grouped.
 
 3) **UICollectionView, along with other standard UI interfaces, are fair game.** I put together a collection view identical to one I would usually make for an iOS app. However, you need to do a little bit of additional work to indicate to the user which cell currently has focus when scrolling. For my collection view, I enable adjustsImageWhenAncestorFocused for my cell's imageview, and reveal a label beneath the image on focus using -didUpdateFocusInContext:withAnimationCoordinator:
 
